@@ -1,0 +1,173 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Pycharm
+.idea
+.DS_Store
+
+# easse
+tools/
+
+# VSCode
+.VSCode
+
+# keep directories of document-level resources
+/easse/resources/data/test_sets/document_level/20Minuten/*
+!/easse/resources/data/test_sets/document_level/20Minuten/.gitkeep
+
+
+/easse/resources/data/test_sets/document_level/DEplain-APA/*
+!/easse/resources/data/test_sets/document_level/DEplain-APA/.gitkeep
+!/easse/resources/data/test_sets/document_level/DEplain-APA/README.md
+
+/easse/resources/data/test_sets/document_level/DEplain-web/manual-private/*
+!/easse/resources/data/test_sets/document_level/DEplain-web/manual-private/.gitkeep
+/easse/resources/data/test_sets/document_level/DEplain-web/manual-public/*
+!/easse/resources/data/test_sets/document_level/DEplain-web/manual-public/.gitkeep
+/easse/resources/data/test_sets/document_level/DEplain-web/auto-public/*
+!/easse/resources/data/test_sets/document_level/DEplain-web/auto-public/.gitkeep
+!/easse/resources/data/test_sets/document_level/DEplain-web/README.md
+
+/easse/resources/data/test_sets/document_level/hda_easy_to_read_langauge/*
+!/easse/resources/data/test_sets/document_level/hda_easy_to_read_langauge/.gitkeep
+
+/easse/resources/data/test_sets/document_level/klexikon/*
+!/easse/resources/data/test_sets/document_level/klexikon/.gitkeep
+
+# keep directories of document-level resources
+/easse/resources/data/test_sets/sentence_level/APA_LHAor-a2/*
+!/easse/resources/data/test_sets/sentence_level/APA_LHAor-a2/.gitkeep
+/easse/resources/data/test_sets/sentence_level/APA_LHAor-b1/*
+!/easse/resources/data/test_sets/sentence_level/APA_LHAor-b1/.gitkeep
+
+/easse/resources/data/test_sets/sentence_level/DEplain-APA/*
+!/easse/resources/data/test_sets/sentence_level/DEplain-APA/.gitkeep
+!/easse/resources/data/test_sets/sentence_level/DEplain-APA/README.md
+
+/easse/resources/data/test_sets/sentence_level/simple-german-corpus/*
+!/easse/resources/data/test_sets/sentence_level/simple-german-corpus/.gitkeep
+!/easse/resources/data/test_sets/sentence_level/simple-german-corpus/LICENSE.md
+
+/easse/resources/data/test_sets/sentence_level/DEplain-web/manual-private/*
+!/easse/resources/data/test_sets/sentence_level/DEplain-web/manual-private/.gitkeep
+# /easse/resources/data/test_sets/sentence_level/DEplain-web/manual-public/*
+!/easse/resources/data/test_sets/sentence_level/DEplain-web/manual-public/.gitkeep
+
+# /easse/resources/data/test_sets/sentence_level/TextComplexityDE/*
+!/easse/resources/data/test_sets/sentence_level/TextComplexityDE/.gitkeep
+
+# /easse/resources/data/test_sets/sentence_level/geolino/*
+!/easse/resources/data/test_sets/sentence_level/geolino/.gitkeep
+
+easse-de/easse/resources/data/system_outputs/document_level/DEplain-APA/*
+!easse-de/easse/resources/data/system_outputs/document_level/DEplain-APA/.gitkeep
+
+
+easse-de/easse/resources/data/system_outputs/sentence_level/DEplain-APA/*
+!easse-de/easse/resources/data/system_outputs/sentence_level/DEplain-APA/.gitkeep
+
+easse-de/easse/resources/data/system_outputs/sentence_level/APA_LHAor-*/*
+easse-de/easse/resources/data/system_outputs/sentence_level/simple-german-corpus/*
+
